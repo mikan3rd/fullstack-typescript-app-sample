@@ -1,1 +1,0 @@
-# fullstack-typescript-app-sample

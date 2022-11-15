@@ -17,3 +17,12 @@
   - Docker
   - Docker Compose
   - MySQL
+
+## Start Development mode
+
+```bash
+docker compose up -d
+```
+
+- http://localhost:8080/console Hasura Console
+- http://localhost:3300 NestJS backend

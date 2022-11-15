@@ -31,3 +31,21 @@ services:
       # HASURA_GRAPHQL_CONSOLE_ASSETS_DIR: /srv/console-assets
       ## uncomment next line to set an admin secret
       # HASURA_GRAPHQL_ADMIN_SECRET: myadminsecretkey
+
+  backend:
+    build:
+      context: ./typescript
+      dockerfile: ./packages/backend/Dockerfile
+    command: yarn @backend start:dev
+    environment:
+      TZ: Asia/Tokyo
+    tty: true
+    depends_on:
+      - postgres
+    ports:
+      - "3300:3300"
+    volumes:
+      - ./typescript:/app
+      - /app/node_modules
+      - /app/packages/backend/node_modules
+      - /app/packages/backend/dist

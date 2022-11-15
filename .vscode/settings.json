@@ -1,0 +1,32 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "editor.renderWhitespace": "all",
+  "css.lint.ieHack": "warning",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "stylelint.enable": true,
+  "prettier.trailingComma": "all",
+  "eslint.format.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.workingDirectories": [
+    "./typescript"
+  ],
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "*.env.*": "env"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}

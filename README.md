@@ -6,7 +6,7 @@
   - React
   - Next.js
   - Apollo Client
-- Backend for Frontend
+- Backend For Frontend
   - GraphQL
   - Hasura
 - Backend

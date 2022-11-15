@@ -13,6 +13,7 @@
   - NestJS
   - Prisma
 - Other
+  - Yarn
   - Docker
   - Docker Compose
   - MySQL

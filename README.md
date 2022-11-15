@@ -26,3 +26,9 @@ docker compose up -d
 
 - http://localhost:8080/console Hasura Console
 - http://localhost:3300 NestJS backend
+
+## Start Production mode
+
+```bash
+docker compose -f docker-compose-prod.yaml up -d
+```

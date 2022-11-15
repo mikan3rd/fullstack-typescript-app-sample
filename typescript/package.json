@@ -1,0 +1,14 @@
+{
+  "name": "fullstack-typescript-app-sample",
+  "version": "1.0.0",
+  "repository": "https://github.com/mikan3rd/fullstack-typescript-app-sample",
+  "author": "mikan3rd",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": "18.12"
+  }
+}
